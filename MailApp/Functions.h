@@ -5,4 +5,6 @@ void uploadDefaultFileData();
 
 void createMailFile();
 
-FILE* openMailFile();
+FILE* openMailFile(int read);
+
+void addNewMessage(char* message);
