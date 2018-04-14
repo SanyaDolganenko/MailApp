@@ -5,6 +5,4 @@ void uploadDefaultFileData();
 
 void createMailFile();
 
-void openMailFile();
-
-void closeMailFile();
+FILE* openMailFile();
