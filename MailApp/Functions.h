@@ -1,5 +1,7 @@
 #pragma once
-void createDefaultMailFile();
+void createMailFileDirectoryIfNeeded();
+
+void uploadDefaultFileData();
 
 void createMailFile();
 
