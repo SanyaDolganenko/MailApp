@@ -14,3 +14,7 @@ void addNewMessage(char* message);
 void offerUserActions();
 
 void offerInputMessage();
+
+void printAllMessages();
+
+void getMailData(HANDLE file, int *output);
