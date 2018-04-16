@@ -1,11 +1,11 @@
 #pragma once
 #include "stdafx.h"
 
-void createMailFileDirectoryIfNeeded(TCHAR * login);
+void createMailFileDirectoryIfNeeded();
 
 void uploadDefaultFileData();
 
-void createMailFile(TCHAR * login);
+void createMailFile();
 
 HANDLE openMailFile(int read);
 
