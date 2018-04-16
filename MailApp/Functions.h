@@ -15,6 +15,8 @@ void offerUserActions();
 
 void offerInputMessage();
 
-void printAllMessages();
+void printMessage(int messageNumber);
 
 void getMailData(HANDLE file, int *output);
+
+int getMessagesCount();
