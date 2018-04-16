@@ -17,6 +17,10 @@ void offerInputMessage();
 
 void printMessage(int messageNumber);
 
+void deleteMessage(int messageNumber);
+
 void getMailData(HANDLE file, int *output);
 
 int getMessagesCount();
+
+int getSingleIntegerFromStdin();
