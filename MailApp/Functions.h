@@ -26,3 +26,5 @@ int getMessagesCount();
 int getSingleIntegerFromStdin();
 
 TCHAR* offerLoginAction();
+
+int getControlSum(HANDLE file);
