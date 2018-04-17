@@ -7,7 +7,7 @@ void uploadDefaultFileData();
 
 void createMailFile();
 
-HANDLE openMailFile(int read);
+HANDLE openMailFile();
 
 void addNewMessage(char* message);
 
